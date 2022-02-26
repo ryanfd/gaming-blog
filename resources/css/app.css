@@ -1,3 +1,26 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.background-image 
+{
+    background-image: url('https://cdn.pixabay.com/photo/2020/04/30/15/34/code-5113374_960_720.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 875px;
+}
+
+/* padding definitions */
+.p-15{
+    padding: 4rem;
+}
+.py-15 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.px-15 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
